@@ -14,6 +14,9 @@ const posts = await Astro.glob('../posts/*.md')
 <Layout title="Astro Blog">
     <Showcase heading="Astro Blog" text="A simple blog build with astro" />
     <section class="page-content">
+        <div>
+            <h1>testing</h1>
+        </div>
         <div class="container">
             {posts.map(post => (
                 <Card>
